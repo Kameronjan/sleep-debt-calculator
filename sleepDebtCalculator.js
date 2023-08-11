@@ -15,3 +15,7 @@ function getSleepHours(day) {
     return 7;
   }
 };
+
+function getActualSleepHours() {
+
+};
