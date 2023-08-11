@@ -22,3 +22,8 @@ function getIdealSleepHours() {
   const idealHours = 8;
   return idealHours * 7;
 };
+
+const calculateSleepDebt = () => {
+    const actualSleepHours = getActualSleepHours();
+    const idealSleepHours = getIdealSleepHours();
+};
